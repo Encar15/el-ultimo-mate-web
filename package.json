@@ -4,9 +4,6 @@
   "resourceFolder": "assets",
   "wollokVersion": "4.2.3",
   "scripts": {
-    "start": "wollok run main.juego --host 0.0.0.0 --port $PORT"
-  },
-  "dependencies": {
-    "@tfloxolodeiro/wollok-ts-cli": "*"
+    "start": "npx --yes @tfloxolodeiro/wollok-ts-cli run main.juego --skipValidations --host 0.0.0.0 --port $PORT"
   }
 }
