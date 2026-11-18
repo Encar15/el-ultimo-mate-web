@@ -7,6 +7,6 @@
     "start": "wollok run main.juego --host 0.0.0.0 --port $PORT"
   },
   "dependencies": {
-    "@tfloxolodeiro/wollok-ts-cli": "^4.2.3"
+    "@tfloxolodeiro/wollok-ts-cli": "*"
   }
 }
